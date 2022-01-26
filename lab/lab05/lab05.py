@@ -47,7 +47,7 @@ def add_chars(w1, w2):
     """
     "*** YOUR CODE HERE ***"
     if not w1:
-        return 0
+        return w2
     elif w1[0]==w2[0]:
         return add_chars(w1[1:],w2[1:])
     else:
